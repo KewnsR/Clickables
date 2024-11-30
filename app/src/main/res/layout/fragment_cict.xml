@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#350542"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/cictLogo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/cict_cover"
+            android:scaleType="centerCrop"
+            android:contentDescription="CICT Cover"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/cictTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="College of Information and Communication Technology"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/cictObjectivesHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="OBJECTIVES"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/cictObjectives"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="• To provide competent learning in software engineering, system design, system development, and project implementation.\n\n
+• To prepare stakeholders in a research and development environment.\n\n
+• To serve as an avenue of IT-related learning for continuous personnel and professional development.\n\n
+• To ensure sustainable growth and collaboration in providing appropriate technical support to clients.\n\n
+• To engage in technopreneurship and practice professional ethics.\n\n
+• To produce students and faculty that act as enablers, innovators, achievers, and leaders towards transforming into globally competitive and responsible IT professionals in the digital economy.\n\n
+• To support the local government administration in fully achieving its ICT goals."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/cictCoursesHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="COURSES OFFERED"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/cictCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="• Bachelor of Science in Computer Science\n• Bachelor of Science in Information Systems"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
